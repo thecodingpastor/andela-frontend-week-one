@@ -1,0 +1,47 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e2e2e2;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    color: teal;
+}
+
+header {
+    text-align: center;
+    margin: 30px auto;
+
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid teal;
+    padding: 10px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+section {
+    text-align: center;
+}
+
+a, span {
+    color: teal;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
